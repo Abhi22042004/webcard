@@ -282,7 +282,7 @@ body {
 }
 .card-timeline:after {
   background: linear-gradient(to top, 
-  rgba(134, 214, 243, 0) 0%, #516acc 100%);
+  rgba(134, 214, 243, 0) 0%, #617ae1 100%);
   content: "";
   left: 42px;
   width: 2px;
@@ -317,7 +317,7 @@ body {
   border-radius: 50%;
   color: rgba(134, 134, 134, 0.7);
   background: linear-gradient(to bottom, 
-    #a0aee3 0%, #516acc 100%);
+    #a0aee3 0%, #637fed 100%);
 }
 
 .card-item-title {
@@ -385,4 +385,25 @@ body {
     rgba(132, 40, 7, 0.8) 0%,
     rgba(223, 60, 15, 0.8) 96%
   );
+}
+body {
+  overflow: hidden;
+}
+
+.snowflake {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  animation: falling 5s linear infinite;
+}
+
+@keyframes falling {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
 }
