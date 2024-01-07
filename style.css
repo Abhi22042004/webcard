@@ -394,7 +394,8 @@ body {
 
 @media screen and (max-width: 600px) {
   .card-container {
-    width: 100%; /* Adjust the width for smaller screens */
+    width: 700px;
+    height: 700px /* Adjust the width for smaller screens */
     overflow-x: auto; /* Enable horizontal scrolling if needed */
   }
 }
