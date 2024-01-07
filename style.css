@@ -29,8 +29,8 @@ body {
 }
 
 .card {
-  max-width: 700px;
-  height: 1000px; /* Set the desired height for the card */
+  max-width: 100%; /* Set the maximum width to 100% for responsiveness */
+    height: auto;/* Set the desired height for the card */
   white-space: nowrap;
   margin: auto;
   overflow-y: auto;
@@ -396,8 +396,8 @@ body {
 
 @media screen and (max-width: 1000px) {
   .card-container {
-    width: 700px;
-    height: 700px /* Adjust the width for smaller screens */
-    overflow-x: auto; /* Enable horizontal scrolling if needed */
+    width: 100%; /* Set the width to 100% to occupy the full width of the screen */
+    height: auto; /* Set height to auto to adjust based on content */
+    overflow-x: auto;
   }
 }
