@@ -30,7 +30,7 @@ body {
 
 .card {
   max-width: 700px;
-  height: 100vh; /* Set the desired height for the card */
+  height: 1000px; /* Set the desired height for the card */
   white-space: nowrap;
   margin: auto;
   overflow-y: auto;
