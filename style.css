@@ -392,20 +392,9 @@ body {
   overflow: hidden;
 }
 
-.snowflake {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  background-color: #fff;
-  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  animation: falling 5s linear infinite;
-}
-
-@keyframes falling {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(100vh);
+@media screen and (max-width: 600px) {
+  .card-container {
+    width: 100%; /* Adjust the width for smaller screens */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
   }
 }
