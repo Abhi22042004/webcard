@@ -110,7 +110,7 @@ body {
   top: -20%;
   left: 0;
   will-change: top;
-  background-size: cover;
+  background-size:auto;
   background-position:inherit;
   filter: blur(30px);
   transform: scale(1.2);
