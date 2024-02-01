@@ -103,9 +103,9 @@ body {
 }
 
 .card-cover {
-  width: 100%;
+  width:1000vh;
   height: 100%;
-  position: relative;
+  position:absolute;
   height: 160px;
   top: -20%;
   left: 0;
