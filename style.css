@@ -33,7 +33,7 @@ body {
     height: auto;/* Set the desired height for the card */
   white-space: nowrap;
   margin: auto;
-  overflow-y: auto;
+  overflow-y:auto;
   position: relative;
   z-index: 1;
   overflow-x: auto;
@@ -43,7 +43,7 @@ body {
   flex-direction: column;
   border-radius: 10px;
   box-shadow: 0 0 1px 8px rgba(250, 250, 250, 0.2);
-  overflow-x: auto;
+  overflow-x:scroll;
 }
 
 .card[data-state="#about"] {
@@ -348,6 +348,7 @@ body {
   font-family: "DM Sans", sans-serif;
   line-height: 1.6;
   cursor: pointer;
+
 }
 .card-contact + .card-contact {
   margin-top: 16px;
@@ -400,7 +401,7 @@ body {
   .card-container {
     width: 100%; /* Set the width to 100% to occupy the full width of the screen */
     height: auto; /* Set height to auto to adjust based on content */
-    overflow-x: auto;
+    overflow-x:hidden;
   }
 }
 .feedback{
@@ -420,6 +421,7 @@ body {
   border: 0;
   height: fit-content;
   outline: none;
+  cursor:pointer;
 }
 .buttons:hover {
   background: linear-gradient(
