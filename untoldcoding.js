@@ -14,10 +14,17 @@ const handleButtonClick = (e) => {
   e.target.classList.add("is-active");
   section.classList.add("is-active");
 };
+// Add the shine effect on card hover
+const card = document.querySelector('.card');
 
-buttons.forEach((btn) => {
-  btn.addEventListener("click", handleButtonClick);
+card.addEventListener('mouseenter', () => {
+  card.classList.add('card-shine');
 });
+
+card.addEventListener('mouseleave', () => {
+  card.classList.remove('card-shine');
+});
+
 
 
 

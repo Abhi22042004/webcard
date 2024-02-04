@@ -62,7 +62,7 @@ body {
 }
 
 .card.is-active .card-header {
-  height: 80px;
+  height: 100px;
 }
 .card.is-active .card-cover {
   height: 100px;
@@ -99,7 +99,7 @@ body {
   transition: 0.3s;
 }
 .card-header * {
-  transition: 0.3s;
+  transition: 0.6s;
 }
 
 .card-cover {
@@ -174,7 +174,7 @@ body {
 }
 .card-desc {
   line-height: 1.6;
-  color: #636b6f;
+  color: #343738;
   font-size: 14px;
   margin: 0;
   font-weight: 400;
@@ -331,7 +331,7 @@ body {
 
 .card-item-desc {
   font-size: 13px;
-  color: #6f6f7b;
+  color: #363639;
   line-height: 1.5;
   font-family: "DM Sans", sans-serif;
 }
@@ -366,7 +366,6 @@ body {
 .contact-me {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border: 0;
-  height: fit-content;
   outline: none;
   background: linear-gradient(
     to right,
@@ -430,3 +429,22 @@ body {
     rgb(236, 117, 236) 96%
   );
 }
+/* Existing styles remain unchanged */
+
+.card{
+  box-shadow: 0 0 20px 100px #ffffff;
+  animation: shine 0.7s infinite alternate;
+}
+
+@keyframes shine {
+  from {
+    box-shadow: 0 0 10px 5px rgb(255, 255, 255);
+  }
+  to {
+    box-shadow: 0 0 20px 12px aqua;
+  }
+}
+.card:hover{
+  animation-play-state: paused;
+}
+
